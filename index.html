@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JM Aesthetic · Belleza, Bienestar y Confianza</title>
+<meta name="description" content="JM Aesthetic: tratamientos faciales, corporales y de mirada. Belleza natural, bienestar y confianza. Reserva tu cita.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="top">
+  <div class="wrap nav">
+    <a href="#inicio" class="brand" aria-label="JM Aesthetic, inicio"><img src="logo-mark.png" alt="JM Aesthetic"></a>
+    <nav class="links" id="links">
+      <a href="#nosotros">Nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="#proceso">Experiencia</a>
+      <a href="#faq">Preguntas</a>
+      <a href="#reservar">Contacto</a>
+    </nav>
+    <a href="#reservar" class="btn btn-primary" data-book>Reservar cita</a>
+    <button class="burger" id="burger" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <canvas id="sparkles" aria-hidden="true"></canvas>
+  <div class="flutter f1" aria-hidden="true"><img src="butterfly.png" alt=""></div>
+  <div class="flutter f2" aria-hidden="true"><img src="butterfly.png" alt=""></div>
+  <div class="flutter f3" aria-hidden="true"><img src="butterfly.png" alt=""></div>
+  <div class="wrap hero-inner">
+    <img class="hero-logo" src="logo.png" alt="JM Aesthetic · Belleza, Bienestar, Confianza">
+    <h1 id="heroTitle">Realza tu belleza, <em>cuida</em> tu bienestar</h1>
+    <p>Tratamientos estéticos personalizados en un espacio sereno, donde cada detalle está pensado para que salgas sintiéndote tú, en tu mejor versión.</p>
+    <div class="ctas">
+      <a href="#reservar" class="btn btn-primary btn-shine" data-book>Reservar cita
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a href="servicios.html" class="btn btn-ghost">Ver servicios</a>
+    </div>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">Descubre<i></i></div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+    <span>Belleza <b>✦</b> Bienestar <b>✦</b> Confianza <b>✦</b> Cuidado personalizado <b>✦</b> Resultados naturales <b>✦</b></span>
+    <span>Belleza <b>✦</b> Bienestar <b>✦</b> Confianza <b>✦</b> Cuidado personalizado <b>✦</b> Resultados naturales <b>✦</b></span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="nosotros">
+  <div class="wrap about-grid">
+    <div class="about-photo rv rv-l">
+      <figure class="photo-frame">
+        <img src="foto.jpg" alt="Profesional de JM Aesthetic" onerror="this.remove()">
+        <div class="photo-ph" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="12" cy="12" r="3.5"/><path d="M8 5l1.5-2h5L16 5"/></svg>
+          <span>Espacio para la foto</span><small>foto.jpg · vertical 4:5</small>
+        </div>
+      </figure>
+      <img class="photo-bfly" src="butterfly.png" alt="">
+      <div class="photo-badge"><img src="logo-mark.png" alt=""><span>Belleza · Bienestar · Confianza</span></div>
+    </div>
+    <div>
+      <span class="eyebrow rv">Sobre mí</span>
+      <h2 class="rv" style="--d:.1s">Un espacio para <em>sentirte bien</em> contigo</h2>
+      <p class="lead rv" style="--d:.2s">Soy la profesional detrás de JM Aesthetic. Creo que la belleza nace del cuidado: escucho lo que necesitas, analizo tu piel y diseño un plan de tratamiento a tu medida, con técnicas actuales y productos de alta calidad.</p>
+      <p class="lead rv" style="--d:.25s;margin-top:1rem">Mi objetivo no es cambiarte, sino potenciar lo que ya eres: resultados naturales, una experiencia relajante y la confianza de estar en buenas manos.</p>
+      <p class="signature rv" style="--d:.3s"><span data-cfg="ownerName"></span><small>Fundadora · JM Aesthetic</small></p>
+      <div class="pillars">
+        <div class="pillar rv" style="--d:.1s"><h3>Belleza</h3><p>Resultados naturales que respetan tus rasgos.</p></div>
+        <div class="pillar rv" style="--d:.2s"><h3>Bienestar</h3><p>Un momento de calma pensado solo para ti.</p></div>
+        <div class="pillar rv" style="--d:.3s"><h3>Confianza</h3><p>Asesoramiento honesto en cada paso.</p></div>
+      </div>
+      <div class="stats rv" style="--d:.35s">
+        <div class="stat"><strong data-count="100">0</strong><span>% personalizado</span></div>
+        <div class="stat"><strong data-count="10" data-plus>0</strong><span>Tratamientos</span></div>
+        <div class="stat"><strong data-count="1" data-suffix=":1">0</strong><span>Atención exclusiva</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES TEASER -->
+<section class="services" id="servicios">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow rv">Servicios</span>
+        <h2 class="rv" style="--d:.1s">Tratamientos <em>a tu medida</em></h2>
+        <p class="lead rv" style="--d:.2s">Descubre todos nuestros tratamientos faciales, corporales y de mirada, y reserva el tuyo en un clic.</p>
+      </div>
+      <a href="servicios.html" class="btn btn-primary rv" style="--d:.2s">Ver todos los servicios
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="cats">
+      <a href="servicios.html#facial" class="cat rv" style="--d:.05s"><span class="cat-n">01</span><h3>Facial</h3><p>Higiene, Hydrafacial, Dermapen, peeling de algas y radiofrecuencia.</p><span class="cat-go">Ver tratamientos →</span></a>
+      <a href="servicios.html#corporal" class="cat rv" style="--d:.15s"><span class="cat-n">02</span><h3>Corporal</h3><p>Drenaje linfático, maderoterapia y presoterapia.</p><span class="cat-go">Ver tratamientos →</span></a>
+      <a href="servicios.html#mirada" class="cat rv" style="--d:.25s"><span class="cat-n">03</span><h3>Mirada</h3><p>Lifting de pestañas, laminado y diseño de cejas.</p><span class="cat-go">Ver tratamientos →</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="proceso">
+  <div class="wrap">
+    <div style="text-align:center;max-width:640px;margin:0 auto">
+      <span class="eyebrow rv">La experiencia</span>
+      <h2 class="rv" style="--d:.1s">Así será <em>tu visita</em></h2>
+      <p class="lead rv" style="--d:.2s;margin:0 auto">Un proceso sencillo y cercano, de principio a fin.</p>
+    </div>
+    <div class="steps" id="steps">
+      <div class="step rv" style="--d:.1s"><div class="n">1</div><h3>Reserva</h3><p>Elige tratamiento, día y franja horaria. Te confirmamos la cita.</p></div>
+      <div class="step rv" style="--d:.25s"><div class="n">2</div><h3>Valoración</h3><p>Analizamos tu piel y tus objetivos para personalizar el tratamiento.</p></div>
+      <div class="step rv" style="--d:.4s"><div class="n">3</div><h3>Tratamiento</h3><p>Disfruta de una sesión relajante con técnicas y productos de calidad.</p></div>
+      <div class="step rv" style="--d:.55s"><div class="n">4</div><h3>Seguimiento</h3><p>Te damos pautas de cuidado en casa y revisamos tu evolución.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER -->
+<section class="offer">
+  <div class="wrap">
+    <div class="offer-box rv rv-s">
+      <span class="eyebrow">Primera visita</span>
+      <h2>Empieza con una <em>valoración personalizada</em></h2>
+      <p>Cuéntanos qué te gustaría mejorar y te diremos con sinceridad qué tratamiento encaja contigo.</p>
+      <a href="#reservar" class="btn btn-primary btn-shine" data-book data-svc="Valoración personalizada">Reservar valoración
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="wrap faq-grid">
+    <div>
+      <span class="eyebrow rv">Preguntas frecuentes</span>
+      <h2 class="rv" style="--d:.1s">Resolvemos <em>tus dudas</em></h2>
+      <p class="lead rv" style="--d:.2s">¿Tienes otra pregunta? Escríbenos y te respondemos encantadas.</p>
+    </div>
+    <div class="rv" style="--d:.15s">
+      <details><summary>¿Necesito una valoración antes del tratamiento?<i></i></summary><div class="ans"><p>Para tratamientos faciales y corporales recomendamos una primera valoración. Así elegimos lo más adecuado para tu tipo de piel y tus objetivos.</p></div></details>
+      <details><summary>¿Cuánto duran las sesiones?<i></i></summary><div class="ans"><p>Depende del tratamiento: entre 30 y 90 minutos. Encontrarás la duración aproximada en cada servicio.</p></div></details>
+      <details><summary>¿Cuántas sesiones necesitaré?<i></i></summary><div class="ans"><p>Algunos tratamientos se notan desde la primera sesión; otros funcionan mejor en un plan de varias sesiones. Te lo explicamos en la valoración.</p></div></details>
+      <details><summary>¿Cómo cambio o cancelo mi cita?<i></i></summary><div class="ans"><p>Escríbenos por WhatsApp con al menos 24 horas de antelación y te buscamos otro hueco sin problema.</p></div></details>
+      <details><summary>¿Qué formas de pago aceptáis?<i></i></summary><div class="ans"><p>Efectivo, tarjeta y Bizum.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking" id="reservar">
+  <div class="wrap book-grid">
+    <div>
+      <span class="eyebrow rv">Reservas</span>
+      <h2 class="rv" style="--d:.1s">Reserva <em>tu momento</em></h2>
+      <p class="lead rv" style="--d:.2s">Rellena el formulario y te llegará la solicitud por WhatsApp para confirmar tu cita. También puedes escribirnos directamente.</p>
+      <div class="contact-list rv" style="--d:.25s">
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><p><small>Dirección</small><span data-cfg="address"></span></p></div>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><p><small>Horario</small><span data-cfg="hours"></span></p></div>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><p><small>Teléfono / WhatsApp</small><span data-cfg="phoneLabel"></span></p></div>
+      </div>
+      <div class="quick rv" style="--d:.3s">
+        <a class="btn btn-primary" id="waBtn" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.3-.2-.5-.3z"/></svg>
+          WhatsApp</a>
+        <a class="btn btn-ghost" id="igBtn" href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+
+    <form id="bookForm" class="rv rv-r" style="--d:.15s" novalidate>
+      <h3>Solicitar cita</h3>
+      <p>Te responderemos lo antes posible para confirmar día y hora.</p>
+      <div class="row">
+        <div class="field"><label for="fName">Nombre</label><input id="fName" name="nombre" required autocomplete="name" placeholder="Tu nombre"></div>
+        <div class="field"><label for="fPhone">Teléfono</label><input id="fPhone" name="telefono" type="tel" autocomplete="tel" placeholder="600 000 000"></div>
+      </div>
+      <div class="field sel"><label for="fSvc">Tratamiento</label><select id="fSvc" name="servicio" required></select></div>
+      <div class="row">
+        <div class="field"><label for="fDate">Fecha preferida</label><input id="fDate" name="fecha" type="date"></div>
+        <div class="field"><label>Franja</label>
+          <div class="slots">
+            <label><input type="radio" name="franja" value="Mañana" checked><span>Mañana</span></label>
+            <label><input type="radio" name="franja" value="Tarde"><span>Tarde</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="field"><label for="fMsg">Mensaje (opcional)</label><textarea id="fMsg" name="mensaje" placeholder="Cuéntanos qué te gustaría mejorar"></textarea></div>
+      <button class="btn btn-primary btn-shine" type="submit">Enviar solicitud por WhatsApp
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      <p class="form-note">Se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <span class="flogo"><img src="logo.png" alt="JM Aesthetic"></span>
+        <p style="margin-top:1.2rem;max-width:34ch">Belleza, bienestar y confianza en cada tratamiento.</p>
+      </div>
+      <div><h4>Navegación</h4><ul><li><a href="#nosotros">Nosotros</a></li><li><a href="servicios.html">Servicios</a></li><li><a href="#proceso">Experiencia</a></li><li><a href="#reservar">Reservar</a></li></ul></div>
+      <div><h4>Contacto</h4><ul><li data-cfg="address"></li><li data-cfg="phoneLabel"></li><li><a id="igFoot" href="#" target="_blank" rel="noopener" data-cfg="instagram"></a></li></ul></div>
+    </div>
+    <div class="legal"><span>© <span id="yr"></span> JM Aesthetic. Todos los derechos reservados.</span><span>Aviso legal · Privacidad · Cookies</span></div>
+  </div>
+</footer>
+
+<a href="#reservar" class="fab" id="fab" data-book><img src="butterfly.png" alt=""><span>Reservar</span></a>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
