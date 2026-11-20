@@ -1,6 +1,8 @@
 # JM Aesthetic · Web
 
-Web de **JM Aesthetic** (Belleza · Bienestar · Confianza): página principal con animaciones, sección "Sobre mí", página de servicios con filtros y formulario de reserva por WhatsApp.
+Web de **JM Aesthetic** (Belleza · Bienestar · Confianza): página principal con animaciones, sección "Sobre mí", galería, página de servicios con precios y **agenda de reservas online** conectada a Google Calendar, Google Sheets y correo.
+
+Carrer de Pelai 12, 08001 Barcelona · 647 46 64 66
 
 ## Archivos
 
@@ -11,14 +13,19 @@ Web de **JM Aesthetic** (Belleza · Bienestar · Confianza): página principal c
 | `styles.css` | Estilos y animaciones |
 | `main.js` | Configuración (contacto, servicios) y lógica de la web |
 | `logo.png`, `logo-mark.png`, `butterfly.png`, `fondo.jpg` | Imágenes de marca |
-| `foto.jpg` | *(añadir)* Foto de la profesional para "Sobre mí", vertical 4:5 |
+| `foto.jpg` | Foto de la profesional en "Sobre mí" |
+| `google-apps-script/` | Script de reservas para Google y guía de instalación (`INSTALAR-RESERVAS.md`) |
+| `galeria-1.jpg`, `galeria-2.jpg`, `galeria-3.jpg` | Fotos de la galería "Mi espacio" |
 
 ## Cambiar datos
 
 Todo se edita al principio de `main.js`:
 
-- `CONFIG`: WhatsApp, teléfono, Instagram, dirección, horario, nombre de la profesional y `bookingUrl` (si se usa Fresha, Booksy o Treatwell, todos los botones de reservar irán a ese enlace).
-- `SERVICES`: lista de tratamientos (categoría, nombre, descripción y duración).
+- `CONFIG`: WhatsApp, teléfono, Instagram, dirección, nombre de la profesional, horario y `bookingApi` (URL del script de Google; vacío = modo demo).
+- `SERVICES`: lista de tratamientos: categoría, nombre, duración en minutos (`min`), precio en euros (`price`, `null` = "Consultar") y descripción.
+
+## Reservas
+Las reservas se hacen en la propia web y van a Google Calendar, a una hoja de Google Sheets (descargable en Excel) y por correo a la clienta y al centro. Instalación: `google-apps-script/INSTALAR-RESERVAS.md`.
 
 ## Publicar con GitHub Pages
 
